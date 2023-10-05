@@ -1,17 +1,45 @@
 <html>
+
 <head>
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 
 <body>
-    <div class="main">
-        <a onclick = "window.location.href='index.html';"><h1>Michelangelo Studio</h1></a>
-        <div class="row">
+    
+
+    <style>
+        .content {
+            max-width: 960px;
+            margin: auto;
+        }
+    </style>
+
+    <div class="content">
+
+        <!--Header-->
+        <a class="logo-name" onclick = "window.location.href='index.html';">
+
+            <h1>Michelangelo Studio</h1>
+
+        </a>
+
+        <nav>
+    
+            <a href="#">Home<span></span></a>
+            <a href="#">About<span></span></a>
+            <a href="#">Contact<span></span></a>
+            
+        </nav>
+
+        <main>
+            
             <div class="column">
                 <div class="container">
                     <img src="https://uploads1.wikiart.org/images/michelangelo/st-petronius-1494.jpg!Large.jpg" class="image" style="width:100%">
                     <div class="middle">
-                        <p class="text"><a onclick = "window.location.href='firstpage.html';">Sculpture</a></p>
+                        <p class="text"><a onclick = "window.location.href='sculpturepage.html';">Sculpture</a></p>
                     </div>
                 </div>   
             </div>
@@ -19,21 +47,58 @@
                 <div class="container">
                     <img src="https://uploads3.wikiart.org/images/michelangelo/study-of-nude-man-1.jpg!Large.jpg" class="image" style="width:100%">
                     <div class="middle">
-                        <p class="text"><a onclick = "window.location.href='secondpage.html';">Skiss</a></p>
+                        <p class="text"><a onclick = "window.location.href='sketchpage.html';">sketch</a></p>
                     </div>
                 </div>
             </div>
             <div class="column">
                 <div class="container">
-                    <img src="https://uploads3.wikiart.org/images/michelangelo/the-torment-of-saint-anthony.jpg!Large.jpg" class="image" style="width:100%">
+                    <img src="https://uploads5.wikiart.org/00382/images/michelangelo/michelangelo-delphic-sibyl.jpg!Large.jpg" class="image" style="width:100%">
                     <div class="middle">
-                        <p class="text"><a onclick = "window.location.href='thirdpage.html';">Paintings</a></p>
+                        <p class="text"><a onclick = "window.location.href='paintingpage.html';">Paintings</a></p>
                     </div>
                 </div>
+            </div>        
+        
+        </main>
+
+        <h1>ㅤ</h1>
+        <h1>ㅤ</h1>
+        <h1>ㅤ</h1>
+        <h1>ㅤ</h1>
+
+        <footer>
+
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
             </div>
-            
-        </div>
+
+            <ul class="social-icon">
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            </ul>
+
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Terms</a></li>
+            </ul>
+
+            <p>@2023 Html projekt </p>
+
+        </footer>
+
     </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </body>
 
 </html>

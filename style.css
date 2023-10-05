@@ -3,27 +3,25 @@
 }
 
 body{
-    background-color: wheat;
-    padding: 20px;
+    background-color: rgba(245, 222, 179, 0.842);
+    padding: 1px;
     font-family: Arial;
 }
 
-.main {
-    max-width: 1000px;
-    margin: auto;
+.logo-name {
+    text-align: left;
+    padding-bottom: 5rem;
+    padding-left: 1rem;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    padding: 0 4px;
+main {
+    display: grid;
+    grid-template-columns: auto auto auto;   
 }
   
 .column {
-    flex-wrap: wrap;
-    max-width: 25%;
-    padding: 0 4px;    
+    float: left;
+    padding: 6px 6px;   
 }
 
 .container {
@@ -49,10 +47,11 @@ body{
     opacity: 1;
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
     transition: .5s ease;
     backface-visibility: hidden;
 }
+
 
 .middle  {
     transition: .5s ease;
@@ -68,13 +67,27 @@ body{
     transform: translate(-50%, -50%);
 }
 
+
 .text{
     position: absolute;
     top: 50%;
     left: 50%; 
     transform: translate(-50%, -50%);
     background-color: black;
+    opacity: 90%;
     color: white;
     font: 16px;
     padding: 16px 32px;    
+}
+
+@media only screen and (min-width: 1200px) {
+    main {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        grid-template-columns: repeat(1,1fr);
+    }
 }
