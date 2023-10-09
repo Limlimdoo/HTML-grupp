@@ -34,17 +34,19 @@ div.desc {
 .responsive {
     float: left;
     padding: 6px 6px;
+    padding-top: 1rem;
+    padding-bottom: 7rem;
 }
 
 @media only screen and (min-width: 1200px) {
     main {
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
     }
 }
 
 @media only screen and (max-width: 900px) {
     main {
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
     }
 }
 
