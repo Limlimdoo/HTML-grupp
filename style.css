@@ -3,16 +3,10 @@
 }
 
 body{
-    background-color: rgba(245, 222, 179, 0.842);
-    padding: 1px;
-    font-family: Arial;
+    background-color:wheat;
 }
 
-.logo-name {
-    text-align: left;
-    padding-bottom: 5rem;
-    padding-left: 1rem;
-}
+
 
 main {
     display: grid;
@@ -23,7 +17,7 @@ main {
   
 .column {
     float: left;
-    padding: 6px 6px;   
+    padding: 6px 6px;
 }
 
 .container {
@@ -32,7 +26,6 @@ main {
 }
   
 .column img {
-    margin-top: 8px;
     vertical-align: middle;
     max-width: 100%;
 }

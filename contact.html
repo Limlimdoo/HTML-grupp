@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
     
@@ -11,7 +11,7 @@
     
     <style>
         .content {
-            max-width: 960px;
+            max-width: 1500px;
             margin: auto;
         }
     </style>
@@ -19,6 +19,7 @@
     <div class="content">
 
         <!--Header-->
+        
         <a class="logo-name" onclick = "window.location.href='index.html';">
 
             <h1>Michelangelo Studio</h1>
@@ -33,37 +34,28 @@
             
         </nav>
         
-        <div class="heading">
+        
+        <div class="contact-form">
+            <h1>Contact Us</h1>
 
-            <h1>Michelangelo</h1>
-            <p>Michelangelo the greatest living artist in his lifetime</p>
+            <div class="container">
+                <div class="main">
+                    <div class="content">
+                        <h2>Contact Us</h2>
+                        <form action="#" method="post">
+                            <input type="text" name="name" placeholder="Enter Your name">
 
-        </div>
+                            <input type="text" name="email" placeholder="Enter Your Email">
 
-        <div class="container">
-
-            <section class="about">
-                <div class="about-image">
-
-                    <img src="https://images.immediate.co.uk/production/volatile/sites/7/2021/03/GettyImages_919641904-5d6e5ab.jpg?quality=90&resize=600,400">
-
+                            <textarea name="message" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn">Send<i class="fas fa-paper-plane"></i></button>            
+                        </form>
+                    </div>
+                    <div class="form-img">
+                        <img src="https://www.historyhit.com/app/uploads/2021/06/Michelangelo-Cover-Image.jpg" alt="Michelangelo">
+                    </div>
                 </div>
-
-                <div class="about-content">
-
-                    <h2>Who was Michelangelo?</h2>
-                    <p>
-                        Michelangelo, in full Michelangelo di Lodovico Buonarroti Simoni, 
-                        (born March 6, 1475, Caprese, Republic of Florence [Italy]—died February 18, 1564, Rome, Papal States), 
-                        Italian Renaissance sculptor, painter, architect, 
-                        and poet who exerted an unparalleled influence on the development of Western art.
-                    </p>
-
-                    <a href="https://en.wikipedia.org/wiki/Michelangelo" class="learn-more">Learn More</a>
-
-                </div>
-
-            </section>
+            </div>
 
         </div>
         
@@ -92,12 +84,12 @@
             <p>@2023 Html projekt </p>
 
         </footer>
-
     </div>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     
+
 </body>
 
 </html>
