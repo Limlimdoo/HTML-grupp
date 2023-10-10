@@ -10,22 +10,6 @@ body{
     background: wheat;
 }
 
-/*.contact-form {
-    position: relative;
-    min-height: 100vh;
-    z-index: 0;
-    padding: 30px;
-    justify-content: center;
-    display: grid;
-    grid-template-rows: 1fr auto 1fr;
-    align-items: center;
-}*/  
-/*
-.container {
-    max-width: 700px;
-    margin-top: 0 auto;
-}
-*/
 .contact-form {
     padding-bottom: 6rem;
     padding-top: 2rem;

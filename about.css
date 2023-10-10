@@ -90,6 +90,8 @@ body {
     color: #666;
 }
 
+/*Learn more button*/
+
 .about-content .learn-more {
     display: inline-block;
     padding: 10px 20px;
@@ -105,6 +107,8 @@ body {
 .about-content .learn-more:hover {
     background-color: #d8ab44;
 }
+
+/*Responsive*/
 
 @media screen and (max-width: 768px) {
     .heading {

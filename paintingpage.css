@@ -31,6 +31,8 @@ div.desc {
     box-sizing: border-box;
 }
 
+/*Responsive*/
+
 .responsive {
     float: left;
     padding: 6px 6px;

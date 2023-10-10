@@ -38,6 +38,8 @@ div.desc {
     padding-bottom: 7rem;
 }
 
+/*Responsive*/
+
 @media only screen and (min-width: 1200px) {
     main {
         grid-template-columns: repeat(3,1fr);
